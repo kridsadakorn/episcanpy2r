@@ -1,0 +1,24 @@
+Package: episcanpy2r
+Title: EpiScanpy to R
+Version: 0.0.1
+Authors@R: c(
+    person(given = "Kridsadakorn",
+           family = "Chaichoompu",
+           role = c("aut", "cre"),
+           email = "kridsadakorn@biostatgen.org",
+           comment = c(ORCID = "0000-0002-8123-3409"))
+    )
+Description: EpiScanpy2R consists of the useful functions to manipulate the EpiScanpy file (AnnData, h5ad) to R.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+BugReports: https://github.com/kridsadakorn/episcanpy2r/issues
+URL: https://github.com/kridsadakorn/episcanpy2r
+Imports: 
+    Matrix,
+    reticulate
